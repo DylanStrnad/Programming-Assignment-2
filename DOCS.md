@@ -24,7 +24,7 @@
 ##
 
 ##
-* If a process' needs are never satisfied, the program prints that its not in a safe state. This loop takes care of it - it checks if we are in the last loop of the for loop, and if the process' resource needs are not met.
+* If a process' needs are never satisfied, the program prints that its not in a safe state. This loop takes care of it - it checks if we are in the last loop of the for loop, and if !safe (process resource needs are not satisfied).
   
   ![image](https://github.com/user-attachments/assets/4a5c8337-5f7a-437b-9f60-12eabfb23ee0)
 ##
