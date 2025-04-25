@@ -18,7 +18,7 @@
 ##
 
 ## 
-* If process' resource needs are satisfied, we mark the process as complete and store it in the safe sequence. After this, it prints the process to add to the safe sequence.
+* If process' resource needs are satisfied, the resources are released from the process and added to the available process'. Mark the process as complete and store it in the safe sequence. After this, it prints the process to add to the safe sequence.
 
   ![image](https://github.com/user-attachments/assets/fadb98e6-4cef-4ff6-b13f-0b743efa01b3)
 ##
