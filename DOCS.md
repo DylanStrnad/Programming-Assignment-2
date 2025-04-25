@@ -16,7 +16,7 @@
   
  ![image](https://github.com/user-attachments/assets/b70fb771-024d-4c85-a5d5-1569a88f7769)
 
-
+## 
 * If process' resource needs are satisfied, we mark the process as complete and store it in the safe sequence. After this, it prints the process to add to the safe sequence.
 
 ![image](https://github.com/user-attachments/assets/e768819e-741f-4957-a4e0-d2edcb07237f)
