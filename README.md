@@ -19,9 +19,12 @@ $ g++ main.cpp -o output
 $ ./output
 ```
 
-##Output examples
+## Output examples
 
 ### should output this with the included info.txt file
 ![image](https://github.com/user-attachments/assets/aa8d9641-6157-4d49-97e2-37a6c45c8cb2)
+
+### modify info.txt values and output may change
+![image](https://github.com/user-attachments/assets/463c34a9-0823-46a5-af29-8d2f8acd2926)
 
 
