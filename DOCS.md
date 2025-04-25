@@ -12,7 +12,7 @@
 ## algorithm explaination
 * The program keeps looping until all processes are complete, or until the system is not in a safe state (breaks from the loop in this case).
 
-* If process is not complete, we check if it is satisfied by resources available. If not, we skip this process, and see of the next process is satisfied available.
+* If process is not complete, we check if it is satisfied by resources available. If not, we skip this process, and see of the next process is satisfied by available resources.
   
  ![image](https://github.com/user-attachments/assets/b70fb771-024d-4c85-a5d5-1569a88f7769)
 
