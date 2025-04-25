@@ -1,4 +1,9 @@
 # Programming-Assignment-2
+
+**Author: Dylan Strnad**
+
+**Programmming languaged used:** C++
+
 Bankers algorithm for deadlock avoidance
 
 ## Summary
@@ -8,6 +13,8 @@ the max resources each process uses, and how many resources are avilable.
 Uses the data from info.txt to determine if the system is in a safe state. If so, program outputs the safe sequence, and states that system is safe. Otherwise, the program outputs that the system is not safe.
 
 ## Running Code
-g++ main.cpp -o output
-
-./output
+To compile code in linux environment, run these commands:
+```sh
+$ g++ main.cpp -o output
+$ ./output
+```
