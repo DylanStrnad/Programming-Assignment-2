@@ -18,3 +18,10 @@ To compile code in linux environment, run these commands:
 $ g++ main.cpp -o output
 $ ./output
 ```
+
+##Output examples
+
+### should output this with the included info.txt file
+![image](https://github.com/user-attachments/assets/aa8d9641-6157-4d49-97e2-37a6c45c8cb2)
+
+
