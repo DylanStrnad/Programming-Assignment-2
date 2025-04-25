@@ -1,13 +1,13 @@
-#Documents
+# Documents
 
-##setting up the bankers algorithm
+## setting up the bankers algorithm
 * matrices to store the necesssary data
 ![image](https://github.com/user-attachments/assets/34575c29-459d-483b-a9f8-76bc6fb71f8e)
 
 * array to keep track of the sequence
 ![image](https://github.com/user-attachments/assets/a57864a2-b16a-417a-b0b9-cd8b11985df5)
 
-##algorithm explaination
+## algorithm explaination
 * The program keeps looping until we all processes are complete.
 
 * If process is not complete, we check if it is satisfied by resources available. If not, we skip this process, and see of the next process is satisfied available.
