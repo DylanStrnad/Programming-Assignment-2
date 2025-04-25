@@ -9,4 +9,5 @@ Uses the data from info.txt to determine if the system is in a safe state. If so
 
 ## Running Code
 g++ main.cpp -o output
+
 ./output
