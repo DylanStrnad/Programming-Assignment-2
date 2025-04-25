@@ -124,7 +124,7 @@ int main() {
             }
             // no process' needs area satisfied, and not safe
             if (pIndex == (totalProcesses - 1) && !safe) {
-                cout << "The system is not in a safe state \n";
+                cout << "\n The system is not in a safe state \n";
                 break;
             }
         }
