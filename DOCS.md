@@ -14,7 +14,7 @@
 
 * If process is not complete, we check if it is satisfied by resources available. If not, we skip this process, and see of the next process is satisfied by available resources.
   
- ![image](https://github.com/user-attachments/assets/b70fb771-024d-4c85-a5d5-1569a88f7769)
+   ![image](https://github.com/user-attachments/assets/b70fb771-024d-4c85-a5d5-1569a88f7769)
 
 ## 
 * If process' resource needs are satisfied, we mark the process as complete and store it in the safe sequence. After this, it prints the process to add to the safe sequence.
