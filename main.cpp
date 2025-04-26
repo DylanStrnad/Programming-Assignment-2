@@ -61,6 +61,7 @@ int main() {
 
 
     while ( completedProcesses < totalProcesses ){
+        //store if system is in safe state
         safe = false;
 
         //used to track process index
@@ -74,7 +75,7 @@ int main() {
                 //index of resource type
                 int rIndex = 0;
 
-               
+               // stored if resource needs are satisfied
                 bool satisfied = false;
 
                 //check if need is greater than available
@@ -100,6 +101,8 @@ int main() {
 
                     safeSequence[completedProcesses] = pIndex;
 
+                    complete[pIndex] = true;
+
                     // print sequence
                     if (completedProcesses < 1) {
                         cout << "safe sequence: ";
@@ -115,8 +118,7 @@ int main() {
 
                     ++completedProcesses;
 
-                    complete[pIndex] = true;
-
+                    //system is in safe state. Resource needs were met for at least one process
                     safe = true;
                 }
                 
