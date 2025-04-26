@@ -18,7 +18,7 @@
 ##
 
 ## 
-* If a process' resource needs are satisfied, the resources are released from the process and added to the available resources. Sets process as complete and stores it in the safe sequence. After this, it prints the process.
+* If a process' resource needs are satisfied, the resources are released from the process and added to the available resources. Sets process as complete and stores it in the safe sequence. After this, prints the process.
 
   ![image](https://github.com/user-attachments/assets/fadb98e6-4cef-4ff6-b13f-0b743efa01b3)
 ##
