@@ -9,7 +9,7 @@
 
   ![image](https://github.com/user-attachments/assets/a57864a2-b16a-417a-b0b9-cd8b11985df5)
 
-## algorithm explaination
+## algorithm explanation
 * The program keeps looping until all processes are complete, or until the system is not in a safe state (breaks from the loop in this case).
 
 * If process is not complete, checks if it is satisfied by resources available. If not, skip this process, and see if the next process is satisfied by available resources.
